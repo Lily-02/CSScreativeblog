@@ -1,5 +1,5 @@
 ---
-title: First Post
+title: First Post for me
 published_at: 2024-03-06
 snippet: I am quitely excited entry into the coding world!
 Welcome everyone,
