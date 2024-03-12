@@ -5,6 +5,8 @@ snippet: Here are some of my sketches from coding classes
 disable_html_sanitization: true
 
 ---
+# Homework s1:
+- Create a grid
 <iframe src="https://editor.p5js.org/Lily-02/full/AYaQXuyi6"></iframe>
 
 ![yu](/24/yu.jpg)
