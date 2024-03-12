@@ -7,7 +7,7 @@ disable_html_sanitization: true
 ---
 # Homework s1:
 - Create a grid
-<iframe src="https://editor.p5js.org/Lily-02/full/7msbr2Kcg" width="1200" height="600"></iframe>
+<iframe src="https://editor.p5js.org/Lily-02/full/7msbr2Kcg" width="600" height="600"></iframe>
 
 ![yu](/24/yu.jpg)
 
