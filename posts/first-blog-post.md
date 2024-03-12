@@ -1,7 +1,7 @@
 ---
-title: First Post for me
+title: My coding blog 🕊
 published_at: 2024-03-06
-snippet: I am quitely excited entry into the coding world!
+snippet: Here are some of my sketches from coding classes
 disable_html_sanitization: true
 
 ---
