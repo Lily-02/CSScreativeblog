@@ -46,3 +46,10 @@ In the “draw” loop, instead of manually copying properties and creating new 
 The management of the “fallers” array is streamlined by using the filter method to simultaneously update and filter out completed "fallers".
 
 ![re4](/23/re4.png)
+
+## Step 5: Test and Verify
+-	Objective: Ensure the refactored code behaves similarly to the original script, with all "fallers" animating as expected.
+-	Implementation: Run the refactored script in a p5.js environment and observe the behaviour of the "fallers". Verify that new "fallers" are created periodically, animate across the screen, and are removed once their animation completes.
+
+<iframe src="https://editor.p5js.org/capogreco/full/9yDsxLFYZ"></iframe>
+
