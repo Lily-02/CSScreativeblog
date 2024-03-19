@@ -8,7 +8,7 @@ disable_html_sanitization: true
 # Homework s1:
 - Create a grid
 - Note: The biggest problem I encountered when implementing the grid was how to calculate the y position of each row, so that the rows are distributed evenly across the canvas height
-<iframe src="https://editor.p5js.org/Lily-02/full/7msbr2Kcg"width="300" height="300"></iframe>
+<iframe src="https://editor.p5js.org/Lily-02/full/7msbr2Kcg"width="400" height="300"></iframe>
 
 ## Rafeal works:
 
