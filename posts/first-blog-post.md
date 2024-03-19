@@ -18,7 +18,8 @@ disable_html_sanitization: true
 
 # Homework s2
 - To refactor the code to use a Faller class, we'll define a class that encapsulates the properties and behaviors of a "faller" object. This will make the code more organized and easier to manage, especially as functionality grows. Below are the steps I used to refactor the code:
-*Step 1*: Define the “Faller” Class
+##Step 1:
+-  Define the “Faller” Class
 -	Objective: Create a class that encapsulates the properties and methods related to a "faller".
 -	Implementation: The Faller class is defined with a constructor that initialises the object's properties, such as colour gradients (colours), starting points (start_points), ending points (end_points), curve modifiers (curves), and animation phase (phase). Additionally, the class includes update and display methods for animating and rendering the object.
-
+![re1](/23/re1.png)
