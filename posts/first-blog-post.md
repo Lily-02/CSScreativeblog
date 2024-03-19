@@ -48,7 +48,7 @@ The management of the “fallers” array is streamlined by using the filter met
 
 ![re4](/23/re4.png)
 
-## Step 5: Test and Verify
+## Step 5: Test and Verify:
 -	Objective: Ensure the refactored code behaves similarly to the original script, with all "fallers" animating as expected.
 -	Implementation: Run the refactored script in a p5.js environment and observe the behaviour of the "fallers". Verify that new "fallers" are created periodically, animate across the screen, and are removed once their animation completes.
 
