@@ -1,5 +1,5 @@
 ---
-title: Week 1 🕊
+title: Week 2 🕊
 published_at: 2024-03-06
 snippet: Here are some of my sketches from coding classes
 disable_html_sanitization: true
@@ -48,3 +48,30 @@ The management of the “fallers” array is streamlined by using the filter met
 ## Rafeal works:
 
 <iframe src="https://editor.p5js.org/Lily-02/full/BK0KFA8sS"></iframe>
+
+In this work, I replicate the nested shrinking squares effect. This effect begins with the generation of an initial square that starts to shrink until its dimension is reduced by a threshold of 100 pixels. At this point, I will generate another square of the original size, and it also begins to shrink. The loop runs infinitely, creating the nested shrinking squares effect. All squares are filled with grey colour with different darkness.
+To implement this effect, I find the most challenging parts are:
+-	How to use class in my code
+-	How to make the squares shrink
+-	How to nest the squares and make the infinite shrinking effect
+
+1.	How to use class in my code:
+Since the effect contains multiple squares, I can create a “square” class to initialise, manage and shrink each square. The attributes for my “square” class include: 
+-	“size”: the current size of the square (this will change dynamically when the square starts to shrink)
+-	“shrinkSpeed”: the speed at which the square shrinks 
+-	“grey”: the square’s grey colour value
+
+![re5](/23/re5.png)
+
+2.	How to make the squares shrink:
+-	To shrink a square, I just need to update its “size” attribute with the shrink speed. The shrink() method is defined as below:
+
+![re6](/23/re6.png)
+
+3.	How to nest the squares and make the infinite shrinking effect:
+-	I maintain the squares in an array, and loop through the array to handle the shrinking, colouring, and drawing of each square.
+-	Whenever the biggest square reduces its size by 100 pixels, I will generate a new square with a random grey colour and add it to the array.
+-	If a square is complete shrunk (its size is less than 0), I will remove the square from the array.
+-	The above logics are shown in the below code:
+
+![re7](/23/re7.png)
