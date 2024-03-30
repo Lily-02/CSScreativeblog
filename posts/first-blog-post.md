@@ -7,7 +7,7 @@ disable_html_sanitization: true
 title: Week 1 🕊
 published_at: 2024-03-06
 snippet: Here are some of my sketches from coding classes
-disable_html_sanitization: true
+disable_html_sanitization: false
 
 ---
 
