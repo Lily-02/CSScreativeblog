@@ -7,6 +7,8 @@ disable_html_sanitization: true
 ---
 # Assignment 1:
 
+<iframe src="https://editor.p5js.org/Lily-02/full/VY7KQ_WPC" width="500" height="400"></iframe>
+
 # AT1 - Concept:
 
 " What cute is ? "
@@ -57,18 +59,20 @@ A glass of water brings a delightful twist to an everyday object. This transform
 
 # 2. How does the artist employ effective complexity in the work to achieve its aesthetic result?
 
- ## From Simple Actions to Rich Variability: 
+## From Simple Actions to Rich Variability: 
 
-Rozendaal cleverly demonstrates how a fundamental interaction, such as the use of a basic interaction (hovering) can lead to diverse and unpredictable outcomes and changes in the water level exemplifies “effective complexity”. 
+ Rozendaal cleverly demonstrates how a fundamental interaction, such as the use of a basic interaction (hovering) can lead to diverse and unpredictable outcomes and changes in the water level exemplifies “effective complexity”. 
 
 ## Random System Dynamics: 
 
  The artwork creates a dynamic system where the outcome is not linear. This unpredictability in how the glass will move randomly when users hover the glass of water or how quickly it will "fill" introduces a level of complexity that engages users in a continuous discovery process, encouraging repeated interaction and exploration.
 
 ## Cause and effect in visual changes: 
-This straightforward interaction leads to a multitude of visual states, illustrating how direct inputs can result in a complex array of outcomes, thereby enriching the artwork's aesthetic and interactive depth.
+ This straightforward interaction leads to a multitude of visual states, illustrating how direct inputs can result in a complex array of outcomes, thereby enriching the artwork's aesthetic and interactive depth.
 
 # 3. Document your creative process in responding to Rozendaal's work.
+
+ Drawing inspiration from Rafael Rozendaal's work, my concept introduces an interactive glass of water set against a light-blue pastel background, embodying both cuteness and complexity. Hovering over the glass changes the weather in the digital scene, seamlessly transitioning from sunshine to rain and back, showcasing the profound impact of simple interactions on the environment. This project blends playful engagement with a deeper exploration of cause and effect.
 
 ## Atrribute to retain:
 -	## Interactive Simplicity: 
@@ -96,16 +100,21 @@ In essence, my creative process involves taking the core interactive experience 
 
 ## References:
 
-[1] Galanter, P., 2003. What is Generative Art? [pdf] Available at: https://philipgalanter.com/downloads/ga2003_what_is_genart.pdf [25 March 2024].
+[1]Eternalboxmirror.xyz, n.d. Jukebox Search. [Online] Available at: <https://www.eternalboxmirror.xyz/jukebox_search.html> (Accessed 23 March 2024).
 
-[2] Ngai, S., 2022. Cute as an Aesthetic Category. [blog] Whitechapel Gallery. Available at: https://www.whitechapelgallery.org/about/blog/sianne-ngai-on-cute-as-an-aesthetic-category/ [26 March 2024].
+[2] Galanter, P., 2003. What is Generative Art? [pdf] Available at: https://philipgalanter.com/downloads/ga2003_what_is_genart.pdf [25 March 2024].
 
-[3] ToTheWater, 2010. *ToTheWater*. [online] Available at: <https://www.tothewater.com> [28 March 2024].
+[3] Klankbeeld, 2024 CalmForest. [Online] Available at: https://freesound.org/people/klankbeeld/sounds/728577/ (Accessed 26 March 2024).
+
+[4] Ngai, S., 2022. Cute as an Aesthetic Category. [blog] Whitechapel Gallery. Available at: https://www.whitechapelgallery.org/about/blog/sianne-ngai-on-cute-as-an-aesthetic-category/ [26 March 2024].
+
+[5] Strathamer, 2017 RainyDay. [Online] Available at: https://freesound.org/people/strathamer/sounds/399157/(Accessed25 March 2024).
+
+[6] ToTheWater, 2010. *ToTheWater*. [online] Available at: <https://www.tothewater.com> [28 March 2024].
 
 # Rafeal works:
 
-
-<iframe src="https://editor.p5js.org/nguyengiahy2911/full/G266Y6NK2"></iframe>
+<iframe src="https://editor.p5js.org/nguyengiahy2911/full/G266Y6NK2" width="500" height="400"></iframe>
 
 In this work, I replicate the artwork "Open this window" - sliding curtain effect from Rafael Rozendaal, in which the user can open and close the curtain by clicking and dragging the mouse. If the curtain is opened, the background image of a rainforest is revealed and an audio sound of birds singing is played. If the curtain is closed, the background image is hidden, and the audio sound is off.
 To implement this effect, I find the most challenging parts are:
@@ -127,8 +136,6 @@ Finally, to track the mouse position, I use the system variable mouseX, which al
 
 ## References:
 
-[1]Eternalboxmirror.xyz, n.d. Jukebox Search. [Online] Available at: <https://www.eternalboxmirror.xyz/jukebox_search.html> (Accessed 23 March 2024).
-
 [2] Openthiswindow, 2012. *Openthiswindow*. [online] Available at: <https://www.openthiswindow.com> (Accessed23 March 2024).
 
 [3] P5.JS, Reference: mousePressed(). Available at: https://p5js.org/reference/#/p5/mousePressed (Accessed 25 March 2024).
@@ -136,8 +143,3 @@ Finally, to track the mouse position, I use the system variable mouseX, which al
 [4] P5.JS, Reference: mouseReleased(). Available at: https://p5js.org/reference/#/p5/mouseReleased (Accessed 25 March 2024).
 
 [5] P5.JS (2024) Reference: mouseX. Available at: https://p5js.org/reference/#/p5/mouseX (Accessed 25 March 2024).
-
-[6] Strathamer, 2017 RainyDay. [Online] Available at: https://freesound.org/people/strathamer/sounds/399157/(Accessed25 March 2024).
-
-[7] Klankbeeld, 2024 CalmForest. [Online] Available at: https://freesound.org/people/klankbeeld/sounds/728577/ (Accessed 26 March 2024).
-
