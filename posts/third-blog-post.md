@@ -7,8 +7,36 @@ disable_html_sanitization: true
 ---
 # Assignment 1:
 
-AT1 - Concept:
+# AT1 - Concept:
 
+" What cute is ? "
+
+As provided insights of "cute" from Sianne Ngai, “cute” seen as an aesthetic category can be understood in the context of its emotional resonance and socio-economic implications in contemporary society. The notion of "cute" transcends mere visual appeal, embedding itself in the fabric of our daily interactions, consumer habits, and emotional landscapes.
+
+"Cute" embodies an aesthetic that draws on the warmth of intimacy and domesticity, engaging our nurturing instincts and evoking a sense of comfort and care. It is not just about the physical appearance of objects or beings but also about the emotional and relational dynamics they inspire. For instance, some social media accounts post their pets in adorable poses which craft comfortable and intimate feeling from viewers. 
+
+Besides, “cute” aesthetics also drives to consumption patterns, it can commodify and manipulated in a market-driven society. For example, the success of “Hello Kitty” commercial underscores how “cute” category can attract consumer behavior and encourage the essence of care and comfort through its “cute” appearance. 
+
+Moreover, “cute” reflects the complexities of labor, communication, and consumption in late capitalist society. For example, the trend of decor “cute” office supplies in office work for making the workplace aesthetically pleasing and create personal comfort emotion, potentially masking the pressures and economic expectations in reality. Overall, “cute” offers insight into how aesthetic experiences are shaped by contemporary economic and social dynamics.
+
+In conclusion, "cute" is not only an aesthetic category; it is a cultural phenomenon that reflects and shapes contemporary societal dynamics. It challenges us to rethink our relationships with the. As we engage with "cute" in art, media, and everyday objects, we navigate a sequence of emotion or consumption, highlighting the transformative potential of aesthetic experiences in the current era.
+
+"What effective complexity is ? "
+
+"Effective complexity" is a nuanced concept that bridges the gap between utter randomness and strict order, finding its significance in systems that harmonize both elements to create something intriguing and comprehensible. 
+
+It's a way to evaluate the richness of a system's structure, looking for a sweet spot where patterns are neither too predictable nor too chaotic. This system with high effective complexity are neither completely random nor entirely ordered, but display patterns that are complex enough to be interesting yet not so disordered.
+
+For example, 
+
+The Infinite Jukebox," a web app created by Paul Lamere that allows users to upload a song, which is then analyzed and broken down into beats. The app identifies similar sounding beats within the song and creates pathways that allow the song to play forever in a non-repetitive manner by jumping between these similar beats. This concept is the balance between order and chaos, because listeners can recognize the songs, but the path is dynamically generated and changed in each session. Due to unpredictable, it keeps user experience fresh and engaging prolonged interaction. "The Infinite Jukebox" mirrors this complexity through music—a form of digital art work, deeply intertwined with human emotion and cognition.
+
+When considering the "cute aesthetic," effective complexity plays a vital role in creating art that is intimacy and endearing without being overly simplistic or chaotic. A cute aesthetic often relies on familiarity and comfort, evoking feelings of warmth and happiness through recognizable, simple patterns and subjects. However, incorporating a level of unpredictability within these familiar frameworks can make artwork more easily approach by comfort and interesting way.
+
+For instance, interactive digital pets that respond to user actions in unexpected ways can be seen as embodying effective complexity within a cute aesthetic. These digital creatures may have predictable behaviors that endear users, but their occasional unpredictable reactions or growth patterns keep users engaged and interested over time. 
+Another example could be animated weather widgets that not only display weather patterns but also incorporate changing elements based on real-time data, such as raindrops that playfully dance across the screen or clouds that change shape or color in delightful ways.
+
+These examples show how effective complexity can enhance the engagement and aesthetic appeal of artworks by introducing a balanced mix of order and unpredictability. This blend not only reflects the complexity found in nature and human cognition but also attract us by a balance between familiarity and novelty.
 
 # AT1 - Journey:
 ## 1. What about the work makes it belong to the aesthetic category of "cute"?
@@ -99,13 +127,17 @@ Finally, to track the mouse position, I use the system variable mouseX, which al
 
 ## References:
 
-[1] Openthiswindow, 2012. *Openthiswindow*. [online] Available at: <https://www.openthiswindow.com> [23 March 2024].
+[1]Eternalboxmirror.xyz, n.d. Jukebox Search. [Online] Available at: <https://www.eternalboxmirror.xyz/jukebox_search.html> (Accessed 23 March 2024).
 
-[2] P5.JS, Reference: mousePressed(). Available at: https://p5js.org/reference/#/p5/mousePressed (Accessed 25 March 2024).
+[2] Openthiswindow, 2012. *Openthiswindow*. [online] Available at: <https://www.openthiswindow.com> (Accessed23 March 2024).
 
+[3] P5.JS, Reference: mousePressed(). Available at: https://p5js.org/reference/#/p5/mousePressed (Accessed 25 March 2024).
 
-[3] P5.JS, Reference: mouseReleased(). Available at: https://p5js.org/reference/#/p5/mouseReleased (Accessed 25 March 2024).
+[4] P5.JS, Reference: mouseReleased(). Available at: https://p5js.org/reference/#/p5/mouseReleased (Accessed 25 March 2024).
 
-[4] P5.JS (2024) Reference: mouseX. Available at: https://p5js.org/reference/#/p5/mouseX (Accessed 25 March 2024).
+[5] P5.JS (2024) Reference: mouseX. Available at: https://p5js.org/reference/#/p5/mouseX (Accessed 25 March 2024).
 
+[6] Strathamer, 2017 RainyDay. [Online] Available at: https://freesound.org/people/strathamer/sounds/399157/(Accessed25 March 2024).
+
+[7] Klankbeeld, 2024 CalmForest. [Online] Available at: https://freesound.org/people/klankbeeld/sounds/728577/ (Accessed 26 March 2024).
 
