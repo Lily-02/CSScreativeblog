@@ -7,7 +7,7 @@ disable_html_sanitization: true
 ---
 # Assignment 1:
 
-<iframe src="https://editor.p5js.org/Lily-02/full/VY7KQ_WPC" width="500" height="400"></iframe>
+<iframe src="https://editor.p5js.org/Lily-02/full/VY7KQ_WPC"></iframe>
 
 # AT1 - Concept:
 
@@ -117,6 +117,86 @@ In essence, my creative process involves taking the core interactive experience 
 
 ## 5. Document the code
 
+In this assignment, I created the "Make It Rain" effect. This effect begins with pouring weather,
+featuring a dark, cloudy sky and a dim sun, alongside a glass filled with rainwater. The water level in
+the glass changes according to the mouse's position. Lowering the mouse decreases the water level,
+indicating vaporisation, and causes the sky and clouds to brighten, with less rain and a more
+luminous sun. The number of raindrops changes linearly with the weather; heavy rain brings many
+raindrops, while light rain results in fewer. Similarly, the colors of the clouds and sun adjust linearly
+with the weather conditions. With sunny weather, the clouds become whiter and the sun more
+yellow; conversely, during rain, both the clouds and sun appear darker. The speed of the cloud
+movement also changes linearly with the weather: clouds move slower when it's sunny and faster
+when it's raining. The sound of the rain scales linearly with the weather intensity as well; heavy rain
+produces a loud sound, and light rain results in a softer sound. When it becomes sunny, the rain
+sound stops, replaced by sunny sound. Hovering the mouse over the glass triggers its relocation to a
+random spot within the canvas. Below is an example of the "Make It Rain" effect:
+
+![re11](/23/re11.png)
+
+To implement this effect, I find the most challenging parts to be:
+- Drawing the empty glass using only simple shapes
+- Drawing the water as it rises and recedes in the glass (this is the hardest part for me).
+- Drawing raindrops and controlling their number based on the current weather.
+- Changing the colour of the clouds and the sun according to the weather.
+- Controlling the sound volume based on the weather conditions.
+- Relocating the glass to a random location when the mouse hovers over it.
+1. Drawing the empty glass using only simple shapes
+I need to dynamically fill the glass with water, so importing a static image of a glass will not work because it cannot be filled. Therefore, I must draw the glass using simple shapes, enabling me to fill it with different colours later.
+This is achieved by drawing two ellipses of different sizes: the larger ellipse represents the top of the glass, and the smaller ellipse represents the bottom. Then, I draw two lines to connect the leftmost and rightmost points of the two ellipses, forming the body of the glass. The code is as below:
+
+![re12](/23/re12.png)
+In which:
+-	topX/topY: the x-position/y-position of the top ellipse
+-	bottomX/bottomY: the x-position/y-position of the bottom ellipse
+-	top_width/top_height: the width/height of the top ellipse
+-	bottom_width/bottom_height: the width/height of the bottom ellipse
+I have this function implemented inside the class “Glass”.
+2.	Drawing the water as it rises and recedes in the glass
+To visualise the water level in the glass, I need to use complex shape in p5. This water drawing is not as simple as drawing the glass (which has 2 ellipses and 2 lines). I need to use Custom Shapes.
+First, I need to determine the width of the water surface. This changes linearly to the water level. I use pre-defined function lerp() to achieve this:
+
+![re13](/23/re13.png)
+
+Similarly, I measure the water height using the same approach:
+
+![re14](/23/re14.png)
+
+The location of the vertices on upper curve and the lower curve of the water are determined using the equation of ellipse: 
+
+(r_x^2)/(R_x^2 )+(r_y^2)/(R_y^2 )=1
+
+The code for can be seen as below:
+
+![re15](/23/re15.png)
+
+This function is also implemented inside the class “Glass”
+3.	Drawing raindrops and controlling their number based on the current weather
+I make a “Rain” class to manage the raindrops and draw them. I have an array “raindrops” to keep all the raindrops, each with different size and falling speed. Then based on the current water level in the glass, I adjust the reduce or increase of elements in the “raindrops” array accordingly.  My “Rain” class can be viewed as below:
+
+![re16](/23/re16.png)
+
+4.	Changing the colour of the clouds and the sun according to the weather
+To manage the clouds and sun, I also have separate classes for them. 
+The “Clouds” class handle the initialisation of random clouds with different sizes, and based on the current water level, the moving speed of the clouds are adjusted proportionally. The “Clouds” class is written as below:
+
+![re17](/23/re17.png)
+
+
+Similarly, for the “Sun” class, it is responsible for drawing and managing the darkness of the sun’s colour. I use lerpColor() function to change the sun’s colour smoothly based on the weather.
+
+![re18](/23/re18.png)
+
+5.	Controlling the sound volume based on the weather conditions
+I create a “Background” class that can change the background colour from sunny to gloomy based on the water level of the glass. This class also handles the audio accordingly: if the weather is sunny, the sunny audio is played, if the weather is raining, the raining audio is played. The volume of the rain sound also scales linearly to the amount of rain.
+
+![re19](/23/re19.png)
+
+6.	Relocating the glass to a random location when the mouse hovers over it
+This problem is not as challenging as above problems to me because I had the chance to practice the hovering effect in the previous assignment. Basically, I check the mouse’s location using mouseX and mouseY global variables and check them against the location of the glass.
+
+![re20](/23/re20.png)
+
+![re21](/23/re21.png)
 ## References:
 
 [1]Eternalboxmirror.xyz, n.d. Jukebox Search. [Online] Available at: <https://www.eternalboxmirror.xyz/jukebox_search.html> (Accessed 23 March 2024).
