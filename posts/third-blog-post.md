@@ -1,7 +1,7 @@
 ---
 title: Week 3 🕊
 published_at: 2024-03-06
-snippet: "Cute" aesthetic and "Effectively Complexity" art
+snippet: Cute aesthetic and Effectively Complexity art
 disable_html_sanitization: true
 
 ---
