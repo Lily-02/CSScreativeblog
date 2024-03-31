@@ -7,6 +7,7 @@ disable_html_sanitization: true
 ---
 
 # Homework s2
+
 - To refactor the code to use a Faller class, we'll define a class that encapsulates the properties and behaviors of a "faller" object. This will make the code more organized and easier to manage, especially as functionality grows. Below are the steps I used to refactor the code:
 ## Step 1:
 -  Define the “Faller” Class
@@ -42,13 +43,15 @@ The management of the “fallers” array is streamlined by using the filter met
 -	Objective: Ensure the refactored code behaves similarly to the original script, with all "fallers" animating as expected.
 -	Implementation: Run the refactored script in a p5.js environment and observe the behaviour of the "fallers". Verify that new "fallers" are created periodically, animate across the screen, and are removed once their animation completes.
 
-<iframe src="https://editor.p5js.org/Lily-02/full/8uCwPQU-W"><width="500" height="400"></iframe>
+<iframe src="https://editor.p5js.org/Lily-02/full/8uCwPQU-W" width="500" height="400"><width="500" height="400"></iframe>
 
 ## Rafeal works:
 
-<iframe src="https://editor.p5js.org/Lily-02/full/BK0KFA8sS"></iframe>
+In this work, I replicate the art work "Homage to the"- the nested shrinking squares effect from Rafael Rozendaal.
 
-In this work, I replicate the art work "Homage to the"- the nested shrinking squares effect from Rafael Rozendaal. This effect begins with the generation of an initial square that starts to shrink until its dimension is reduced by a threshold of 100 pixels. At this point, I will generate another square of the original size, and it also begins to shrink. The loop runs infinitely, creating the nested shrinking squares effect. All squares are filled with grey colour with different darkness.
+<iframe src="https://editor.p5js.org/Lily-02/full/BK0KFA8sS" width="500" height="400"></iframe>
+
+ This effect begins with the generation of an initial square that starts to shrink until its dimension is reduced by a threshold of 100 pixels. At this point, I will generate another square of the original size, and it also begins to shrink. The loop runs infinitely, creating the nested shrinking squares effect. All squares are filled with grey colour with different darkness.
 To implement this effect, I find the most challenging parts are:
 -	How to use class in my code
 -	How to make the squares shrink
