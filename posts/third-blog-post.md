@@ -1,7 +1,7 @@
 ---
 title: Week 3 🕊
 published_at: 2024-03-06
-snippet: Here are some of my sketches from coding classes
+snippet: "Cute" aesthetic and "Effectively Complexity" art
 disable_html_sanitization: true
 
 ---
@@ -10,28 +10,39 @@ disable_html_sanitization: true
 AT1 - Concept:
 
 
-AT1 - Journey:
-1. What about the work makes it belong to the aesthetic category of "cute"?
+# AT1 - Journey:
+## 1. What about the work makes it belong to the aesthetic category of "cute"?
 
 For this project, I choose the art work " tothewater" by Rafael Rozenddal to get an inspiration. The reasons it relates to cute aesthetic is:
--	### Simplicity and Minimalism: 
+
+### Simplicity and Minimalism: 
+
 The art work presented a simple object - glass of water which simply set in white background. This minimalistic evokes a sense of warm and comfort characteristics often associated with "cuteness." This everyday-object combines with familiar image and clean interface, can appeal to a feeling of innocent curiosity and delight, key factors  of what makes something "cute."
--	## Interactivity and Responsiveness: 
+
+## Interactivity and Responsiveness: 
+
 By enabling viewers to alter the glass's water level through a simple hover, the artwork gains a playful quality. Such interactivity mirrors acts of nurturing or caring for something by giving it attention, aligning with the nurturing qualities often found in “cute” aesthetic. The act of hovering to "fill" the glass mimics a gentle, caring gesture, further enhancing its cuteness.
--	## Sound effects and Conceptual Charm: 
+
+## Sound effects and Conceptual Charm: 
+
 A glass of water brings a delightful twist to an everyday object. This transformation, driven by user interaction, adds an enchanting surprise element by adding sound effects when users water increase, firmly placing the piece within the "cute" aesthetic realm.
 
 2. How does the artist employ effective complexity in the work to achieve its aesthetic result?
 
--	## From Simple Actions to Rich Variability: 
+- ## From Simple Actions to Rich Variability: 
+
 Rozendaal cleverly demonstrates how a fundamental interaction, such as the use of a basic interaction (hovering) can lead to diverse and unpredictable outcomes and changes in the water level exemplifies “effective complexity”. 
--   ## Random System Dynamics: 
+
+- ## Random System Dynamics: 
+
  The artwork creates a dynamic system where the outcome is not linear. This unpredictability in how the glass will move randomly when users hover the glass of water or how quickly it will "fill" introduces a level of complexity that engages users in a continuous discovery process, encouraging repeated interaction and exploration.
+
 -	## Cause and effect in visual changes: 
 This straightforward interaction leads to a multitude of visual states, illustrating how direct inputs can result in a complex array of outcomes, thereby enriching the artwork's aesthetic and interactive depth.
 
 3. Document your creative process in responding to Rozendaal's work.
-# Atrribut to retain:
+
+# Atrribute to retain:
 -	## Interactive Simplicity: 
 Like Rozendaal’s work, your concept maintains the simplicity of interaction – the hover effect that alters the water level in a glass. This straightforward engagement is powerful, allowing users to easily understand their impact on the artwork.
 -	## Visual Transformation: 
