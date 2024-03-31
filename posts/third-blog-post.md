@@ -48,29 +48,29 @@ These examples show how effective complexity can enhance the engagement and aest
 
 For this project, I choose the art work " tothewater" by Rafael Rozenddal to get an inspiration. The reasons it relates to cute aesthetic is:
 
-**Simplicity and Minimalism**
+**Simplicity and Minimalism :**
 
 The art work presented a simple object - glass of water which simply set in white background. This minimalistic evokes a sense of warm and comfort characteristics often associated with "cuteness." This everyday-object combines with familiar image and clean interface, can appeal to a feeling of innocent curiosity and delight, key factors  of what makes something "cute."
 
-## Interactivity and Responsiveness: 
+**Interactivity and Responsiveness :** 
 
 - By enabling viewers to alter the glass's water level through a simple hover, the artwork gains a playful quality. Such interactivity mirrors acts of nurturing or caring for something by giving it attention, aligning with the nurturing qualities often found in “cute” aesthetic. The act of hovering to "fill" the glass mimics a gentle, caring gesture, further enhancing its cuteness.
 
-## Sound effects and Conceptual Charm: 
+**Sound effects and Conceptual Charm :** 
 
 - A glass of water brings a delightful twist to an everyday object. This transformation, driven by user interaction, adds an enchanting surprise element by adding sound effects when users water increase, firmly placing the piece within the "cute" aesthetic realm.
 
 ## 2. How does the artist employ effective complexity in the work to achieve its aesthetic result?
 
-## From Simple Actions to Rich Variability: 
+**From Simple Actions to Rich Variability :** 
 
  - Rozendaal cleverly demonstrates how a fundamental interaction, such as the use of a basic interaction (hovering) can lead to diverse and unpredictable outcomes and changes in the water level exemplifies “effective complexity”. 
 
-## Random System Dynamics: 
+**Random System Dynamics :** 
 
  The artwork creates a dynamic system where the outcome is not linear. This unpredictability in how the glass will move randomly when users hover the glass of water or how quickly it will "fill" introduces a level of complexity that engages users in a continuous discovery process, encouraging repeated interaction and exploration.
 
-## Cause and effect in visual changes: 
+**Cause and effect in visual changes :** 
  This straightforward interaction leads to a multitude of visual states, illustrating how direct inputs can result in a complex array of outcomes, thereby enriching the artwork's aesthetic and interactive depth.
 
 ## 3. Document your creative process in responding to Rozendaal's work.
@@ -78,19 +78,31 @@ The art work presented a simple object - glass of water which simply set in whit
 - Drawing inspiration from Rafael Rozendaal's work, my concept introduces an interactive glass of water set against a light-blue pastel background, embodying both cuteness and complexity. Hovering over the glass changes the weather in the digital scene, seamlessly transitioning from sunshine to rain and back, showcasing the profound impact of simple interactions on the environment. This project blends playful engagement with a deeper exploration of cause and effect.
 
 ## Atrribute to retain:
--	## Interactive Simplicity: 
+
+-	**Interactive Simplicity :** 
+
 Like Rozendaal’s work, your concept maintains the simplicity of interaction – the hover effect that alters the water level in a glass. This straightforward engagement is powerful, allowing users to easily understand their impact on the artwork.
--	## Visual Transformation: 
+
+-	**Visual Transformation :**
+
 Rozendaal’s glass of water changes in response to user interaction. Similarly, my decision is to retain this aspect of unpredictability and visual change. The randomness serves as a bridge between the user's action and the artwork's response, emphasizing the dynamism inherent in interactive art.
--	## Minimalist Aesthetic: 
+
+-	**Minimalist Aesthetic :** 
+
 My inspired by Rozendaal’s minimalist approach, focuses on a everyday object which evokes the feeling of cute aesthetic. The use of pastel colors and a clean, uncluttered design echoes for simplicity and visual clarity.
 
 ## Attribute to change:
--	## Complexity of Interaction: 
+
+-	**Complexity of Interaction :** 
+
 While Rozendaal’s work primarily focuses on the glass and its contents, my concept introduces a broader environmental narrative. By linking the water level to weather changes, my project adds a layer of complexity and depth to the interactive experience, enhancing the scope of user influence.
--	## Narrative Depth: 
+
+-	**Narrative Depth :** 
+
 By linking the water level in the cup to weather changes, my work implies a narrative of ecological interconnectivity. This progression from a stable state through a rainy period to a sunny condition depending on the user's engagement introduces a temporal dimension absent from Rozendaal's original, making the experience more immersive and story-driven.
--    ## Audiovisual Elements:
+
+-    **Audiovisual Elements :**
+
 The sound effects corresponding to weather changes enriches the sensory experience of your artwork. This enhancement not only deepens the user's experience but also underscores the environmental shifts being depicted, a significant expansion on the primarily visual of Rozendaal's piece.
 
 ## 4. In dialogue with the Rozendaal piece
@@ -122,11 +134,14 @@ In essence, my creative process involves taking the core interactive experience 
 <iframe src="https://editor.p5js.org/nguyengiahy2911/full/G266Y6NK2" width="500" height="400"></iframe>
 
 In this work, I replicate the artwork "Open this window" - sliding curtain effect from Rafael Rozendaal, in which the user can open and close the curtain by clicking and dragging the mouse. If the curtain is opened, the background image of a rainforest is revealed and an audio sound of birds singing is played. If the curtain is closed, the background image is hidden, and the audio sound is off.
+
 To implement this effect, I find the most challenging parts are:
 -	How to determine if the mouse is pressed and released
 -	How to track the mouse position
 -	How to play an audio
+
 Since in the last few weeks, I haven’t learnt or worked on a problem that requires user’s interaction with the interface. Hence, I need to do a few research to learn how to do it in JaveScript.
+
 In order to detect if the mouse is pressed, I use the pre-defined function mousePressed() in p5.js. According to the official documentation [1], the mousePressed() function is called once after every time a mouse button is pressed. 
 
 ![re8](/23/re8.png)
