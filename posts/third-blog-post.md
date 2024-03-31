@@ -11,7 +11,7 @@ disable_html_sanitization: true
 
 # AT1 - Concept:
 
-## " What cute is ? "
+## "What cute is ?"
 
 As provided insights of "cute" from Sianne Ngai, “cute” seen as an aesthetic category can be understood in the context of its emotional resonance and socio-economic implications in contemporary society. The notion of "cute" transcends mere visual appeal, embedding itself in the fabric of our daily interactions, consumer habits, and emotional landscapes.
 
@@ -23,7 +23,7 @@ Moreover, “cute” reflects the complexities of labor, communication, and cons
 
 In conclusion, "cute" is not only an aesthetic category; it is a cultural phenomenon that reflects and shapes contemporary societal dynamics. It challenges us to rethink our relationships with the. As we engage with "cute" in art, media, and everyday objects, we navigate a sequence of emotion or consumption, highlighting the transformative potential of aesthetic experiences in the current era.
 
-## "What effective complexity is ? "
+## "What effective complexity is ?"
 
 "Effective complexity" is a nuanced concept that bridges the gap between utter randomness and strict order, finding its significance in systems that harmonize both elements to create something intriguing and comprehensible. 
 
@@ -33,7 +33,7 @@ For example,
 
 The Infinite Jukebox," a web app created by Paul Lamere that allows users to upload a song, which is then analyzed and broken down into beats. The app identifies similar sounding beats within the song and creates pathways that allow the song to play forever in a non-repetitive manner by jumping between these similar beats. This concept is the balance between order and chaos, because listeners can recognize the songs, but the path is dynamically generated and changed in each session. Due to unpredictable, it keeps user experience fresh and engaging prolonged interaction. "The Infinite Jukebox" mirrors this complexity through music—a form of digital art work, deeply intertwined with human emotion and cognition.
 
-## How "effectivly complexity" functions within a cute aesthetic frame ?
+## "How it functions within a cute aesthetic frame ?"
 
 When considering the "cute aesthetic," effective complexity plays a vital role in creating art that is intimacy and endearing without being overly simplistic or chaotic. A cute aesthetic often relies on familiarity and comfort, evoking feelings of warmth and happiness through recognizable, simple patterns and subjects. However, incorporating a level of unpredictability within these familiar frameworks can make artwork more easily approach by comfort and interesting way.
 
@@ -50,7 +50,7 @@ For this project, I choose the art work " tothewater" by Rafael Rozenddal to get
 
 **Simplicity and Minimalism :**
 
-The art work presented a simple object - glass of water which simply set in white background. This minimalistic evokes a sense of warm and comfort characteristics often associated with "cuteness." This everyday-object combines with familiar image and clean interface, can appeal to a feeling of innocent curiosity and delight, key factors  of what makes something "cute."
+- The art work presented a simple object - glass of water which simply set in white background. This minimalistic evokes a sense of warm and comfort characteristics often associated with "cuteness." This everyday-object combines with familiar image and clean interface, can appeal to a feeling of innocent curiosity and delight, key factors  of what makes something "cute."
 
 **Interactivity and Responsiveness :** 
 
@@ -68,10 +68,10 @@ The art work presented a simple object - glass of water which simply set in whit
 
 **Random System Dynamics :** 
 
- The artwork creates a dynamic system where the outcome is not linear. This unpredictability in how the glass will move randomly when users hover the glass of water or how quickly it will "fill" introduces a level of complexity that engages users in a continuous discovery process, encouraging repeated interaction and exploration.
+ - The artwork creates a dynamic system where the outcome is not linear. This unpredictability in how the glass will move randomly when users hover the glass of water or how quickly it will "fill" introduces a level of complexity that engages users in a continuous discovery process, encouraging repeated interaction and exploration.
 
 **Cause and effect in visual changes :** 
- This straightforward interaction leads to a multitude of visual states, illustrating how direct inputs can result in a complex array of outcomes, thereby enriching the artwork's aesthetic and interactive depth.
+ - This straightforward interaction leads to a multitude of visual states, illustrating how direct inputs can result in a complex array of outcomes, thereby enriching the artwork's aesthetic and interactive depth.
 
 ## 3. Document your creative process in responding to Rozendaal's work.
 
