@@ -15,23 +15,25 @@ disable_html_sanitization: true
 
 As provided insights of "cute" from Sianne Ngai, “cute” seen as an aesthetic category can be understood in the context of its emotional resonance and socio-economic implications in contemporary society. The notion of "cute" transcends mere visual appeal, embedding itself in the fabric of our daily interactions, consumer habits, and emotional landscapes.
 
-"Cute" embodies an aesthetic that draws on the warmth of intimacy and domesticity, engaging our nurturing instincts and evoking a sense of comfort and care. It is not just about the physical appearance of objects or beings but also about the emotional and relational dynamics they inspire. For instance, some social media accounts post their pets in adorable poses which craft comfortable and intimate feeling from viewers. 
+**"Cute" embodies an aesthetic** that draws on the warmth of intimacy and domesticity, engaging our nurturing instincts and evoking a sense of comfort and care. It is not just about the physical appearance of objects or beings but also about the emotional and relational dynamics they inspire. For instance, some social media accounts post their pets in adorable poses which craft comfortable and intimate feeling from viewers. 
 
-Besides, “cute” aesthetics also drives to consumption patterns, it can commodify and manipulated in a market-driven society. For example, the success of “Hello Kitty” commercial underscores how “cute” category can attract consumer behavior and encourage the essence of care and comfort through its “cute” appearance. 
+**Besides, “cute” aesthetics also drives to consumption patterns,** it can commodify and manipulated in a market-driven society. For example, the success of “Hello Kitty” commercial underscores how “cute” category can attract consumer behavior and encourage the essence of care and comfort through its “cute” appearance. 
 
-Moreover, “cute” reflects the complexities of labor, communication, and consumption in late capitalist society. For example, the trend of decor “cute” office supplies in office work for making the workplace aesthetically pleasing and create personal comfort emotion, potentially masking the pressures and economic expectations in reality. Overall, “cute” offers insight into how aesthetic experiences are shaped by contemporary economic and social dynamics.
+**Moreover, “cute” reflects the complexities of labor,** communication, and consumption in late capitalist society. For example, the trend of decor “cute” office supplies in office work for making the workplace aesthetically pleasing and create personal comfort emotion, potentially masking the pressures and economic expectations in reality. Overall, “cute” offers insight into how aesthetic experiences are shaped by contemporary economic and social dynamics.
 
-In conclusion, "cute" is not only an aesthetic category; it is a cultural phenomenon that reflects and shapes contemporary societal dynamics. It challenges us to rethink our relationships with the. As we engage with "cute" in art, media, and everyday objects, we navigate a sequence of emotion or consumption, highlighting the transformative potential of aesthetic experiences in the current era.
+**In conclusion, "cute" is not only an aesthetic category,** it is also a cultural phenomenon that reflects and shapes contemporary societal dynamics. It challenges us to rethink our relationships with the. As we engage with "cute" in art, media, and everyday objects, we navigate a sequence of emotion or consumption, highlighting the transformative potential of aesthetic experiences in the current era.
 
 ## "What effective complexity is ?"
 
-"Effective complexity" is a nuanced concept that bridges the gap between utter randomness and strict order, finding its significance in systems that harmonize both elements to create something intriguing and comprehensible. 
+**"Effective complexity" is a nuanced concept** that bridges the gap between utter randomness and strict order, finding its significance in systems that harmonize both elements to create something intriguing and comprehensible. 
 
 It's a way to evaluate the richness of a system's structure, looking for a sweet spot where patterns are neither too predictable nor too chaotic. This system with high effective complexity are neither completely random nor entirely ordered, but display patterns that are complex enough to be interesting yet not so disordered.
 
-For example, 
+**For example,**
 
-The Infinite Jukebox," a web app created by Paul Lamere that allows users to upload a song, which is then analyzed and broken down into beats. The app identifies similar sounding beats within the song and creates pathways that allow the song to play forever in a non-repetitive manner by jumping between these similar beats. This concept is the balance between order and chaos, because listeners can recognize the songs, but the path is dynamically generated and changed in each session. Due to unpredictable, it keeps user experience fresh and engaging prolonged interaction. "The Infinite Jukebox" mirrors this complexity through music—a form of digital art work, deeply intertwined with human emotion and cognition.
+The Infinite Jukebox," a web app created by Paul Lamere that allows users to upload a song, which is then analyzed and broken down into beats. The app identifies similar sounding beats within the song and creates pathways that allow the song to play forever in a non-repetitive manner by jumping between these similar beats. 
+
+This concept is the balance between order and chaos, because listeners can recognize the songs, but the path is dynamically generated and changed in each session. Due to unpredictable, it keeps user experience fresh and engaging prolonged interaction. "The Infinite Jukebox" mirrors this complexity through music—a form of digital art work, deeply intertwined with human emotion and cognition.
 
 ## "How it functions within a cute aesthetic frame ?"
 
