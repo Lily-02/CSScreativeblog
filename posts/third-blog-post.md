@@ -55,7 +55,13 @@ In more details, my piece serves as a commentary on the original by suggesting t
 
 In essence, my creative process involves taking the core interactive experience Rozendaal offers and weaving it into a more complex narrative about environmental interconnectivity and the power of individual actions. Last but not least, my project also extends boundaries to encourage participants to reflect on their connection with the environment.
 
+## References:
 
+[1] Galanter, P., 2003. What is Generative Art? [pdf] Available at: https://philipgalanter.com/downloads/ga2003_what_is_genart.pdf [25 March 2024].
+
+[2] Ngai, S., 2022. Cute as an Aesthetic Category. [blog] Whitechapel Gallery. Available at: https://www.whitechapelgallery.org/about/blog/sianne-ngai-on-cute-as-an-aesthetic-category/ [26 March 2024].
+
+[3] ToTheWater, 2010. *ToTheWater*. [online] Available at: <https://www.tothewater.com> [28 March 2024].
 
 ## Rafeal works:
 
@@ -80,10 +86,15 @@ Finally, to track the mouse position, I use the system variable mouseX, which al
 
 ![re10](/23/re10.png)
 
-References:
-[1] P5.JS, Reference: mousePressed(). Available at: https://p5js.org/reference/#/p5/mousePressed (Accessed 25 March 2024).
+## References:
+
+[1] Homagetothe, 2014. *Homagetothe*. [online] Available at: <https://www.homagetothe.com> [28 March 2024].
+
+[2] P5.JS, Reference: mousePressed(). Available at: https://p5js.org/reference/#/p5/mousePressed (Accessed 25 March 2024).
 
 
-[2] P5.JS, Reference: mouseReleased(). Available at: https://p5js.org/reference/#/p5/mouseReleased (Accessed 25 March 2024).
+[3] P5.JS, Reference: mouseReleased(). Available at: https://p5js.org/reference/#/p5/mouseReleased (Accessed 25 March 2024).
 
-[3] P5.JS (2024) Reference: mouseX. Available at: https://p5js.org/reference/#/p5/mouseX (Accessed 25 March 2024).
+[4] P5.JS (2024) Reference: mouseX. Available at: https://p5js.org/reference/#/p5/mouseX (Accessed 25 March 2024).
+
+
