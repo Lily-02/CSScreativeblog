@@ -15,7 +15,7 @@ AT1 - Concept:
 
 For this project, I choose the art work " tothewater" by Rafael Rozenddal to get an inspiration. The reasons it relates to cute aesthetic is:
 
-### Simplicity and Minimalism: 
+## Simplicity and Minimalism: 
 
 The art work presented a simple object - glass of water which simply set in white background. This minimalistic evokes a sense of warm and comfort characteristics often associated with "cuteness." This everyday-object combines with familiar image and clean interface, can appeal to a feeling of innocent curiosity and delight, key factors  of what makes something "cute."
 
