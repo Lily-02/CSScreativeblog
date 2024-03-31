@@ -7,6 +7,17 @@ disable_html_sanitization: true
 ---
 # Assignment 1:
 
+AT 1 - Journey:
+1. What about the work makes it belong to the aesthetic category of "cute"?
+
+For this project, I choose the art work " tothewater" by Rafael Rozenddal to get an inspiration. The reasons it relates to cute aesthetic is:
+-	### Simplicity and Minimalism: 
+The art work presented a simple object - glass of water which simply set in white background. This minimalistic evokes a sense of warm and comfort characteristics often associated with "cuteness." This everyday-object combines with familiar image and clean interface, can appeal to a feeling of innocent curiosity and delight, key factors  of what makes something "cute."
+-	## Interactivity and Responsiveness: 
+By enabling viewers to alter the glass's water level through a simple hover, the artwork gains a playful quality. Such interactivity mirrors acts of nurturing or caring for something by giving it attention, aligning with the nurturing qualities often found in “cute” aesthetic. The act of hovering to "fill" the glass mimics a gentle, caring gesture, further enhancing its cuteness.
+-	## Sound effects and Conceptual Charm: 
+A glass of water brings a delightful twist to an everyday object. This transformation, driven by user interaction, adds an enchanting surprise element by adding sound effects when users water increase, firmly placing the piece within the "cute" aesthetic realm.
+
 ## Rafeal works:
 
 <iframe src="https://editor.p5js.org/nguyengiahy2911/full/G266Y6NK2"></iframe>

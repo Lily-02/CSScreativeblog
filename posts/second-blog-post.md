@@ -1,7 +1,7 @@
 ---
 title: Week 2 🕊
 published_at: 2024-03-06
-snippet: Here are some of my sketches from coding classes
+snippet: Refactor "Falling Falling" code
 disable_html_sanitization: true
 
 ---
@@ -74,3 +74,6 @@ Since the effect contains multiple squares, I can create a “square” class to
 -	The above logics are shown in the below code:
 
 ![re7](/23/re7.png)
+
+References:
+
