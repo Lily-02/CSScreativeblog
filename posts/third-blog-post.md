@@ -27,22 +27,22 @@ By enabling viewers to alter the glass's water level through a simple hover, the
 
 A glass of water brings a delightful twist to an everyday object. This transformation, driven by user interaction, adds an enchanting surprise element by adding sound effects when users water increase, firmly placing the piece within the "cute" aesthetic realm.
 
-2. How does the artist employ effective complexity in the work to achieve its aesthetic result?
+# 2. How does the artist employ effective complexity in the work to achieve its aesthetic result?
 
-- ## From Simple Actions to Rich Variability: 
+ ## From Simple Actions to Rich Variability: 
 
 Rozendaal cleverly demonstrates how a fundamental interaction, such as the use of a basic interaction (hovering) can lead to diverse and unpredictable outcomes and changes in the water level exemplifies “effective complexity”. 
 
-- ## Random System Dynamics: 
+## Random System Dynamics: 
 
  The artwork creates a dynamic system where the outcome is not linear. This unpredictability in how the glass will move randomly when users hover the glass of water or how quickly it will "fill" introduces a level of complexity that engages users in a continuous discovery process, encouraging repeated interaction and exploration.
 
--	## Cause and effect in visual changes: 
+## Cause and effect in visual changes: 
 This straightforward interaction leads to a multitude of visual states, illustrating how direct inputs can result in a complex array of outcomes, thereby enriching the artwork's aesthetic and interactive depth.
 
-3. Document your creative process in responding to Rozendaal's work.
+# 3. Document your creative process in responding to Rozendaal's work.
 
-# Atrribute to retain:
+## Atrribute to retain:
 -	## Interactive Simplicity: 
 Like Rozendaal’s work, your concept maintains the simplicity of interaction – the hover effect that alters the water level in a glass. This straightforward engagement is powerful, allowing users to easily understand their impact on the artwork.
 -	## Visual Transformation: 
@@ -50,7 +50,7 @@ Rozendaal’s glass of water changes in response to user interaction. Similarly,
 -	## Minimalist Aesthetic: 
 My inspired by Rozendaal’s minimalist approach, focuses on a everyday object which evokes the feeling of cute aesthetic. The use of pastel colors and a clean, uncluttered design echoes for simplicity and visual clarity.
 
-# Attribute to change:
+## Attribute to change:
 -	## Complexity of Interaction: 
 While Rozendaal’s work primarily focuses on the glass and its contents, my concept introduces a broader environmental narrative. By linking the water level to weather changes, my project adds a layer of complexity and depth to the interactive experience, enhancing the scope of user influence.
 -	## Narrative Depth: 
@@ -58,7 +58,7 @@ By linking the water level in the cup to weather changes, my work implies a narr
 -    ## Audiovisual Elements:
 The sound effects corresponding to weather changes enriches the sensory experience of your artwork. This enhancement not only deepens the user's experience but also underscores the environmental shifts being depicted, a significant expansion on the primarily visual of Rozendaal's piece.
 
-4. In dialogue with the Rozendaal piece
+# 4. In dialogue with the Rozendaal piece
 
 My work engages in a dialogue with Rozendaal's piece through its foundational concept of interaction leading to transformation. However, by extending the consequences of this interaction to an environmental scale, your project explores the themes of influence and connectivity more expansively. 
 
@@ -74,7 +74,7 @@ In essence, my creative process involves taking the core interactive experience 
 
 [3] ToTheWater, 2010. *ToTheWater*. [online] Available at: <https://www.tothewater.com> [28 March 2024].
 
-## Rafeal works:
+# Rafeal works:
 
 
 <iframe src="https://editor.p5js.org/nguyengiahy2911/full/G266Y6NK2"></iframe>
