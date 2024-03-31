@@ -68,7 +68,7 @@ In essence, my creative process involves taking the core interactive experience 
 
 <iframe src="https://editor.p5js.org/nguyengiahy2911/full/G266Y6NK2"></iframe>
 
-In this work, I replicate the sliding curtain effect, in which the user can open and close the curtain by clicking and dragging the mouse. If the curtain is opened, the background image of a rainforest is revealed and an audio sound of birds singing is played. If the curtain is closed, the background image is hidden, and the audio sound is off.
+In this work, I replicate the artwork "Open this window" - sliding curtain effect from Rafael Rozendaal, in which the user can open and close the curtain by clicking and dragging the mouse. If the curtain is opened, the background image of a rainforest is revealed and an audio sound of birds singing is played. If the curtain is closed, the background image is hidden, and the audio sound is off.
 To implement this effect, I find the most challenging parts are:
 -	How to determine if the mouse is pressed and released
 -	How to track the mouse position
@@ -88,7 +88,7 @@ Finally, to track the mouse position, I use the system variable mouseX, which al
 
 ## References:
 
-[1] Homagetothe, 2014. *Homagetothe*. [online] Available at: <https://www.homagetothe.com> [28 March 2024].
+[1] Openthiswindow, 2012. *Openthiswindow*. [online] Available at: <https://www.openthiswindow.com> [23 March 2024].
 
 [2] P5.JS, Reference: mousePressed(). Available at: https://p5js.org/reference/#/p5/mousePressed (Accessed 25 March 2024).
 

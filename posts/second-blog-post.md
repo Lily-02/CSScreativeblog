@@ -48,7 +48,7 @@ The management of the “fallers” array is streamlined by using the filter met
 
 <iframe src="https://editor.p5js.org/Lily-02/full/BK0KFA8sS"></iframe>
 
-In this work, I replicate the nested shrinking squares effect. This effect begins with the generation of an initial square that starts to shrink until its dimension is reduced by a threshold of 100 pixels. At this point, I will generate another square of the original size, and it also begins to shrink. The loop runs infinitely, creating the nested shrinking squares effect. All squares are filled with grey colour with different darkness.
+In this work, I replicate the art work "Homage to the"- the nested shrinking squares effect from Rafael Rozendaal. This effect begins with the generation of an initial square that starts to shrink until its dimension is reduced by a threshold of 100 pixels. At this point, I will generate another square of the original size, and it also begins to shrink. The loop runs infinitely, creating the nested shrinking squares effect. All squares are filled with grey colour with different darkness.
 To implement this effect, I find the most challenging parts are:
 -	How to use class in my code
 -	How to make the squares shrink
@@ -75,5 +75,8 @@ Since the effect contains multiple squares, I can create a “square” class to
 
 ![re7](/23/re7.png)
 
-References:
+## References:
 
+[1] Fallingfalling, 2011. *Fallingfalling*. [online] Available at: <https://www.fallingfalling.com> [22 March 2024].
+
+[2] Homagetothe, 2014. *Homagetothe*. [online] Available at: <https://www.homagetothe.com> [28 March 2024].
