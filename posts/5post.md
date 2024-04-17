@@ -32,7 +32,7 @@ A self-portrait in the style of glitch
       img_data = cnv.toDataURL ("image/jpeg")
       add_glitch ()
    }
-   img.src = `/240405/pfp_glasses.jpg`
+   img.src = `/23/b.jpeg`
 
    const rand_int = max => Math.floor (Math.random () * max)
 
