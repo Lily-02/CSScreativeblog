@@ -3,9 +3,9 @@ title: Week 6 (3js) 🕊
 published_at: 2024-04-10
 snippet: Create a grid
 disable_html_sanitization: true
-
-
 ---
+
+rando change
 <div id="three_container"></div>
 
 <script type="module">
