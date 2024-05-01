@@ -6,7 +6,7 @@ disable_html_sanitization: true
 ---
 
 
-Hi, this is my task of c2.js. I got the source code from Ren Yuan. 
+Hi, this is my task of c2.js. I choose the "Circle.js" folder to import it to my blog. I got the source code from Ren Yuan. 
 Here is that link: https://github.com/ren-yuan/c2.js/blob/857f6fbb9769a786c284d2b973ce4b637761c395/examples/Circle.js
 
 <script src="/script/c2.js"></script>
