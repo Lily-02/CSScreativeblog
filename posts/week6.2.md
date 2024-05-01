@@ -14,7 +14,6 @@ hello!
 
 <script>
 
-
 //Created by Ren Yuan
 
 
@@ -101,3 +100,5 @@ function resize() {
     let parent = renderer.canvas.parentElement;
     renderer.size(parent.clientWidth, parent.clientWidth / 16 * 9);
 }
+
+</script>
