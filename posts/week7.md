@@ -13,10 +13,10 @@ disable_html_sanitization: true
 <script>
 
  const renderer = new c2.Renderer(document.getElementById('c2'));
- resize();
+ resize()
 
- renderer.background('#cccccc');
- let random = new c2.Random();
+ renderer.background('#cccccc')
+ let random = new c2.Random()
 
 
 class Agent extends c2.Circle{
