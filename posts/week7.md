@@ -5,7 +5,7 @@ snippet: Create a grid
 disable_html_sanitization: true
 ---
 
-<script src="/script/c2.js"></script>
+<script src="/script/c2.min.js"></script>
 
 <canvas id='c2'></canvas>
 <div id="ascii_div"></div>
@@ -66,25 +66,21 @@ div.style.textAlign = `center
 renderer.draw(() => {
     renderer.clear();
 
-    for (let i = 0; i < agents.length; i++) {
-        agents[i].update();
-    }
-
     for (let i = 0; i < agents.length-1; i++) {
         for (let j = i+1; j < agents.length; j++) {
           let points = agents[i].intersection(agents[j]);
             if(points!=null){
               let c = c2.Color.lerp(agents[i].color, agents[j].color, .5);
-              renderer.stroke(c);
-              renderer.lineWidth(2);
-              renderer.line(points[0].x, points[0].y, points[1].x, points[1].y);
-              
-              renderer.stroke('#333333');
-              renderer.lineWidth(5);
-              renderer.point(points[0]);
-              renderer.point(points[1]);
-            }
-        }
+
+    renderer.stroke (false)
+    for (let i = 0; i < agents.length-1; i++) {
+
+    renderer.line(points[0].x, points[0].y, points[1].x, points[1].y);
+    renderer.point(points[0]);
+    renderer.point(points[1]);
+
+    for (let i = 0; i < agents.length; i++) {
+        agents[i].update();
     }
 });`
 
