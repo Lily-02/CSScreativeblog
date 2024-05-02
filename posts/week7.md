@@ -5,7 +5,7 @@ snippet: Create a grid
 disable_html_sanitization: true
 ---
 
-<script src="/script/c2.min.js"></script>
+<script src="/script/c2.js"></script>
 
 <canvas id='c2'></canvas>
 <div id="ascii_div"></div>
