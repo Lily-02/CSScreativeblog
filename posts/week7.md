@@ -83,7 +83,7 @@ renderer.draw(() => {
     for (let i = 0; i < agents.length; i++) {
         agents[i].update();
     }
-});`
+});
 
       const w = renderer.canvas.width
       const h = renderer.canvas.height
