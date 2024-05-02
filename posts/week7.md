@@ -74,7 +74,6 @@ renderer.draw(() => {
 
     for (let i = 0; i < agents.length; i++) {
         agents[i].update();
-        agents[i].display();
     }
 
     for (let i = 0; i < agents.length-1; i++) {
