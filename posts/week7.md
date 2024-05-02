@@ -7,19 +7,19 @@ disable_html_sanitization: true
 
 <script src="/script/c2.min.js"></script>
 
-<canvas id='c2.min'></canvas>
+<canvas id='c2'></canvas>
 <div id="ascii_div"></div>
 
 <script>
 
- const renderer = new c2.Renderer(document.getElementById('c2.min'));
+ const renderer = new c2.Renderer(document.getElementById('c2'));
  resize()
 
  renderer.background('#cccccc')
- let random = new c2.min.Random()
+ let random = new c2.Random()
 
 
-class Agent extends c2.min.Circle{
+class Agent extends c2.Circle{
     constructor() {
         let x = random.next(renderer.width);
         let y = random.next(renderer.height);
@@ -28,7 +28,7 @@ class Agent extends c2.min.Circle{
 
         this.vx = random.next(-2, 2);
         this.vy = random.next(-2, 2);
-        this.color = c2.min.Color.hsl(random.next(0, 30), random.next(30, 60), random.next(20, 100));
+        this.color = c2.Color.hsl(random.next(0, 30), random.next(30, 60), random.next(20, 100));
     }
 
     update(){
@@ -80,7 +80,7 @@ renderer.draw(() => {
         for (let j = i+1; j < agents.length; j++) {
           let points = agents[i].intersection(agents[j]);
             if(points!=null){
-              let c = c2.min.Color.lerp(agents[i].color, agents[j].color, .5);
+              let c = c2.Color.lerp(agents[i].color, agents[j].color, .5);
               renderer.stroke(c);
               renderer.lineWidth(2);
               renderer.line(points[0].x, points[0].y, points[1].x, points[1].y);
