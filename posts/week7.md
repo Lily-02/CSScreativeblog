@@ -78,9 +78,9 @@ renderer.draw(() => {
     renderer.stroke (false)
     for (let i = 0; i < agents.length-1; i++) {
 
-    renderer.line(points[0].x, points[0].y, points[1].x, points[1].y);
-    renderer.point(points[0]);
-    renderer.point(points[1]);
+        renderer.line(points[0].x, points[0].y, points[1].x, points[1].y);
+        renderer.point(points[0]);
+        renderer.point(points[1]);
     }
     for (let i = 0; i < agents.length; i++) {
         agents[i].update();
