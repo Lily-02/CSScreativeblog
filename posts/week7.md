@@ -61,8 +61,8 @@ const chars = "¶Ñ@%&∆∑∫#Wß¥$£√?!†§ºªµ¢çø∂æåπ*™≤�
 
 const div = document.getElementById (`ascii_div`)
 
-div.style.fontFamily = `monospace`
-div.style.textAlign = `center
+div.style.fontFamily = `monospace`;
+div.style.textAlign = `center`;
 
 renderer.draw(() => {
     renderer.clear();
