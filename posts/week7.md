@@ -15,7 +15,7 @@ disable_html_sanitization: true
  const renderer = new c2.Renderer(document.getElementById('c2'));
  resize()
 
- renderer.background('#cccccc')
+ renderer.background ('turquoise')
  let random = new c2.Random()
 
 
@@ -49,12 +49,6 @@ class Agent extends c2.Circle{
             this.p.y = renderer.height-this.r;
             this.vy *= -1;
         }
-    }
-
-    display(){
-        renderer.stroke(false);
-        renderer.fill(this.color);
-        renderer.circle(this);
     }
 }
 
@@ -99,34 +93,23 @@ renderer.draw(() => {
       const pixels = renderer.context.getImageData (0, 0, w, h).data
 
       let ascii_img = ``
-
-      for (let y = 0; y < cnv.height; y += 2) {
-         for (let x = 0; x < cnv.width; x++) {
-
-            // get pixel position
-            const i = (y * cnv.width + x) * 4
-
-            // get rgb values
+      
+      for (let y = 0; y < renderer.canvas.height; y += 22) {
+         for (let x = 0; x < renderer.canvas.width; x += 10) {
+            const i = (y * renderer.canvas.width + x) * 4
             const r = pixels[i]
             const g = pixels[i + 1]
             const b = pixels[i + 2]
-
-            // calculate brightness
             const br = (r * g * b / 16581376) ** 0.1
-
-            // use brightness to select character
             const char_i = Math.floor (br * chars.length)
-
-            // add character to ascii string
             ascii_img += chars[char_i]
          }
-
-         // new line 
          ascii_img += `\n`
       }
 
-      // add ascii string to innerText of div
       div.innerText = ascii_img
+
+     
 
     function resize() {
      let parent = renderer.canvas.parentElement;
