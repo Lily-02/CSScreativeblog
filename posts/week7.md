@@ -4,7 +4,8 @@ published_at: 2024-04-10
 snippet: Create a grid
 disable_html_sanitization: true
 ---
-I COMBINED FROM ASCII CAM : https://blog.science.family/240412_ascii_cam AND Circle c2js : https://github.com/ren-yuan/c2.js/blob/main/examples/Circle.js#L10
+I COMBINED FROM ASCII CAM https://blog.science.family/240412_ascii_cam AND Circle c2js https://github.com/ren-yuan/c2.js/blob/main/examples/Circle.js#L10
+
 <script src="/script/c2.js"></script>
 
 <canvas id='c2'></canvas>
