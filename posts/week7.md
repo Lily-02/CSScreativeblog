@@ -7,19 +7,19 @@ disable_html_sanitization: true
 
 <script src="/script/c2.min.js"></script>
 
-<canvas id="c2"></canvas>
+<canvas id='c2.min'></canvas>
 <div id="ascii_div"></div>
 
 <script>
 
- const renderer = new c2.Renderer(document.getElementById('c2'));
+ const renderer = new c2.min.Renderer(document.getElementById('c2.min'));
  resize()
 
  renderer.background('#cccccc')
- let random = new c2.Random()
+ let random = new c2.min.Random()
 
 
-class Agent extends c2.Circle{
+class Agent extends c2.min.Circle{
     constructor() {
         let x = random.next(renderer.width);
         let y = random.next(renderer.height);
