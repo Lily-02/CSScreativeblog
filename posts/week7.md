@@ -4,7 +4,7 @@ published_at: 2024-04-10
 snippet: Create a grid
 disable_html_sanitization: true
 ---
-HI
+
 <script src="/script/c2.js"></script>
 
 <canvas id='c2'></canvas>
