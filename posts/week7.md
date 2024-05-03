@@ -6,8 +6,8 @@ disable_html_sanitization: true
 ---
 I combine FROM ASCII CAM https://blog.science.family/240412_ascii_cam AND Circle c2js https://github.com/ren-yuan/c2.js/blob/main/examples/Circle.js#L10
 
-<script src="/static/script/c2.min.js"></script>
-<script src="/static/script/c2.js"></script>
+<script src="/script/c2.min.js"></script>
+<script src="/script/c2.js"></script>
 <canvas id="c2"></canvas>
 <div id="ascii_div"></div>
 <script>
