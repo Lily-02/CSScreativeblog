@@ -72,16 +72,17 @@ renderer.draw(() => {
           let points = agents[i].intersection(agents[j]);
             if(points!=null){
               let c = c2.Color.lerp(agents[i].color, agents[j].color, .5);
+              renderer.stroke (false);
+              renderer.lineWidth(2);
+              renderer.line(points[0].x, points[0].y, points[1].x, points[1].y);
+              renderer.stroke(`#333333`);
+              renderer.lineWidth(5);
+              renderer.point(points[0]);
+              renderer.point(points[1]);
             }
         }
     } 
-    renderer.stroke (false)
-    for (let i = 0; i < agents.length-1; i++) {
 
-        renderer.line(points[0].x, points[0].y, points[1].x, points[1].y);
-        renderer.point(points[0]);
-        renderer.point(points[1]);
-    }
     for (let i = 0; i < agents.length; i++) {
         agents[i].update();
     }
