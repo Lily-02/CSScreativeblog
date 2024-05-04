@@ -26,8 +26,8 @@ I combined FROM ASCII CAM https://blog.science.family/240412_ascii_cam AND Circl
 			this.color = c2.Color.hsl(random.next(0, 30), random.next(30, 60), random.next(20, 100))
       	}
         update() {
-	 		this.x += this.vx
-	     	this.y += this.vy
+	 		this.p.x += this.vx
+	     	this.p.y += this.vy
             if (this.p.x < this.r) {
 			    this.p.x = this.r;
 			    this.vx *= -1;
