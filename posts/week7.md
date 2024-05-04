@@ -13,7 +13,7 @@ I combined FROM ASCII CAM https://blog.science.family/240412_ascii_cam AND Circl
 <script>
 	const renderer = new c2.Renderer (document.getElementById ('c2'));
 	resize ()
-    renderer.background ('turquoise')
+    renderer.background ('333333')
 	let random = new c2.Random ()
     class Agent extends c2.Circle {
         constructor () {
