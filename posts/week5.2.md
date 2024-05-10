@@ -76,3 +76,23 @@ Pixel Sort
     requestAnimationFrame(draw_frame)
   }
 </script>
+
+# Comments to the code:
+
+## Pixel_sort.js
+
+The code begins execution by first defining a quicksort() function, which will be used later to sort pixel data based on their &#39;brightness&#39; value. Once the PixelSorter() class is declared and instantiated, the init() method is triggered to set up initial properties such as the width and height
+of the canvas, and to retrieve the pixel data from the canvas context. This sets the stage for manipulating image data. When the glitch() method is called, it starts by computing the index for pixel positions in a specified area of the canvas, collecting their RGB values, and computing their &#39;brightness&#39;. 
+
+These values are then stored in an array which is sorted using the previously defined quicksort function. After sorting, the pixel data is reordered and written back to the canvas in their
+new order to create a glitch effect in the image.
+
+
+## Pixel_sort.html
+
+This code sets up a canvas element and loads an image onto it. It then creates an instance of the PixelSorter() class and initializes it with the loaded image data. The draw_frame()
+function is called repeatedly using requestAnimationFrame(), creating an animation loop. 
+
+Within the draw_frame() function, the original image is redrawn onto the canvas. Then, a sinusoidal value is calculated based on the current frame count. This value is used to determine the position and dimensions of an area on the canvas where a &quot;pixel sorting&quot; effect will be applied using the sorter.glitch() method.
+
+The pixel sorting effect rearranges the pixels within the specified area based on QuickSort algorithm defined in file Pixel_sort.js, creating a glitchy effect. The position and dimensions of the affected area change with each frame, creating a dynamic and animated
