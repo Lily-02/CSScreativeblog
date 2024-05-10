@@ -75,113 +75,31 @@ A self-portrait in the style of glitch
 
 </script>
 
-```html
+## Comments to the code:
 
-<script type="module">
-//create a canvas
-   const cnv = document.getElementById (glitch_self_portrait)
+The code starts by setting up the canvas element with width, height, and a 2D context.
 
-   //sizing to be good size
-   cnv.width = cnv.parentNode.scrollWidth
-   cnv.height = cnv.width * 9 / 16
-   //background color
-   cnv.style.backgroundColor = deeppink  
-   //canvas context
-   const ctx = cnv.getContext (2d)
+![re27](/23/re27.png)
 
-    //installing variable for image data
-   let img_data
+Then, it defines a draw() function to draw a given image on the canvas. The code loads the original image and draws it on the canvas using the draw() function. It then calls the add_glitch() function to start adding a glitch effect to the original data. 
 
-//defining a function that draw the image
-   const draw = i => ctx.drawImage (i, 0, 0, cnv.width, cnv.height)
-//creating a new image
-   const img = new Image ()
-   // define function to execute loading file
-   img.onload = () => {
+![re28](/23/re28.png)
 
-    //resizing the image size
+The add_glitch() function works by creating an array of 12 images and adding glitches to these images by calling the glitchify() function.
 
-      cnv.height = cnv.width * (img.height / img.width)
-      //draw image
-      draw (img)
-        // storing image date as string in img_data
-      img_data = cnv.toDataURL ("image/jpeg")
-      //call the glitch function
-      add_glitch ()
-   }
-   //give filepath to image element
+![re29](/23/re29.png)
 
-   img.src = /demo.JPG //add my own picture
+In the glitchify() function, the data of each image has some parts cut off using a random chunk size. The data before and after the chunk are concatenated after being cut to form a glitched image. This process repeats for a specified number of “repeats”. 
 
-    //define a function that returns a random value between 0-max
-   const rand_int = max => Math.floor (Math.random () * max)
-    // define a recursive function
-   const glitchify = (data, chunk_max, repeats) => {
-    //random multiple of 4 between 0-chunk_max
-      const chunk_size = rand_int (chunk_max / 4) * 4
+![re30](/23/re30.png)
 
-    // random position in the data between 24-chunk_size
-      const i = rand_int (data.length - 24 - chunk_size) + 24
-      //grabing all data before the random position
-      const front = data.slice (0, i)
-      // leaaving a gap the size of chunk_size
-      //grabbing the rest of the data
-      const back = data.slice (i + chunk_size, data.length)
-      //putting two pieces back together
-      //leaving out a chunk
-      const result = front + back
+Finally, the draw_frame() function is responsible for animating the glitched images. This is done by using the requestAnimationFrame() built-in method, so that draw_frame() is called again whenever the canvas is repainted, which creates the animation. The draw_frame() method works by generating random thresholds to determine when to switch between glitched and original states.
 
-      //ternary operator to return result if false
-      return repeats == 0 ? result : glitchify (result, chunk_max, repeats - 1)
-   }
-    //instanitate empty array for glitched images
-   const glitch_arr = []
-    
-    //define function that adds glitch imnage
-    // to the glitch array
-   const add_glitch = () => {
+![re31](/23/re31.png)
 
-    //make new image element
-      const i = new Image ()
-      // define function that executes when image receives its data
-      i.onload = () => {
-        //push the image into the glitch_arr array
-         glitch_arr.push (i)
-         //call itself until there are 12 glitched images
-         if (glitch_arr.length < 12) add_glitch ()
-         //once there 12 images, start animating
-         else draw_frame ()
-      }
-
-      //give the new image some glith effect image data
-      i.src = glitchify (img_data, 96, 6)
-   }
-
-    // instanitate variable to keep track of glitch state
-   let is_glitching = false
-   // keep track of which glitch image from the arrat we are using
-   let glitch_i = 0
+Draw from this weeks' readings to discuss in a blog post:
+which of Ngai's aesthetic categories does your self-portrait (and glitch more generally) belong to, and why?
+does glitch increase or decrease effective complexity, and why?
 
 
-   const draw_frame = () => {
-    // check the glitch
-    // if glitching draw the glitch array image
-      if (is_glitching) draw (glitch_arr[glitch_i])
-      //otherwise draw the regular image
-      else draw (img)
-      
-    //probability weighting for starting and stopping the glitch
-      const prob = is_glitching ? 0.05 : 0.02
-      //if random value is less than weight value
-      if (Math.random () < prob) {
-        //chooose a random glitch image index
-         glitch_i = rand_int (glitch_arr.length)
-         //flip the state of is_glitching
-         is_glitching = !is_glitching
-      }
 
-        //call the next animation frame
-      requestAnimationFrame (draw_frame)
-   }
-
-   </script>
