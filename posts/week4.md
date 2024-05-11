@@ -9,6 +9,8 @@ disable_html_sanitization: true
 
 - Create and post a fractal to your blog using recursion and Canvas API.
 
+<canvas id='canvas'></canvas>
+
 <script>
 
 // Get rid of the document's default padding.
@@ -16,7 +18,7 @@ document.body.style.margin   = 0
 //document.body.style.overflow = `hidden`
 
 // Get the canvas element and the drawing context
-const canvas  = document.createElement ('canvas')
+const canvas  = document.getElementById('canvas')
 canvas.width = window.innerWidth
 canvas.height = window.innerHeight
 document.body.appendChild(canvas)
