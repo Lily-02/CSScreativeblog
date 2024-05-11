@@ -15,7 +15,7 @@ Pixel Sort
 
 <script type="module">
   // Imports the PixelSorter class from an external JavaScript file.
-  import { PixelSorter } from "/script/pixel_sort.js"
+  import { PixelSorter } from "/static/script/pixel_sort.js"
 
   // Set up the canvas 
   const cnv = document.getElementById(`pixel_sort`)
