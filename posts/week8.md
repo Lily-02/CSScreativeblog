@@ -1,5 +1,5 @@
 ---
-title: A.2 🕊
+title:  Week 8 🕊
 published_at: 2024-03-06
 snippet: Cute aesthetic and Effectively Complexity art
 disable_html_sanitization: true

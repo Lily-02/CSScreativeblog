@@ -1,5 +1,5 @@
 ---
-title: Week 7 (c2js) 🕊
+title: Week 7 🕊
 published_at: 2024-04-10
 snippet: Create a grid
 disable_html_sanitization: true
@@ -142,7 +142,7 @@ I combined FROM ASCII CAM https://blog.science.family/240412_ascii_cam AND Circl
         }
 
         // Update the text content of a designated div to show the ASCII image
-        
+
         div.innerText = ascii_img
 	})
     function resize () {

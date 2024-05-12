@@ -1,5 +1,5 @@
 ---
-title: Week 5 (no.2) 🕊
+title: Week 5 🕊
 published_at: 2024-04-11
 snippet: Create a grid
 disable_html_sanitization: true
