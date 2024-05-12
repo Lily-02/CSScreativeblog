@@ -9,6 +9,51 @@ disable_html_sanitization: true
 
 - Create and post a fractal to your blog using recursion and Canvas API.
 
+``` html
+
+<script>
+
+// Get rid of the document's default padding.
+document.body.style.margin   = 0
+//document.body.style.overflow = `hidden`
+
+// Get the canvas element and the drawing context
+const canvas  = document.createElement ('canvas')
+canvas.width = window.innerWidth
+canvas.height = window.innerHeight
+document.body.appendChild(canvas)
+const ctx = canvas.getContext('2d');
+
+function drawBranch(x, y, length, angle, depth) {
+    if (depth === 0) return;
+
+    ctx.beginPath();
+    ctx.save();
+    ctx.translate(x, y);
+    ctx.rotate(angle * Math.PI / 180);
+    ctx.moveTo(0, 0);
+    ctx.lineTo(0, -length);
+    ctx.stroke();
+
+    drawBranch(0, -length, length * 0.9, -15, depth - 1);
+    drawBranch(0, -length, length * 0.9, 15, depth - 1);
+
+    ctx.restore();
+}
+
+function drawTree() {
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    ctx.strokeStyle = 'brown';
+    ctx.lineWidth = 5;
+
+    // Start the tree from the bottom center of the canvas
+    drawBranch(canvas.width / 2, canvas.height, 100, 0, 10);
+}
+
+drawTree();
+
+```
+
 <script>
 
 // Get rid of the document's default padding.

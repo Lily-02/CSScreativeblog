@@ -93,4 +93,9 @@ function is called repeatedly using requestAnimationFrame(), creating an animati
 
 Within the draw_frame() function, the original image is redrawn onto the canvas. Then, a sinusoidal value is calculated based on the current frame count. This value is used to determine the position and dimensions of an area on the canvas where a &quot;pixel sorting&quot; effect will be applied using the sorter.glitch() method.
 
-The pixel sorting effect rearranges the pixels within the specified area based on QuickSort algorithm defined in file Pixel_sort.js, creating a glitchy effect. The position and dimensions of the affected area change with each frame, creating a dynamic and animated
+The pixel sorting effect rearranges the pixels within the specified area based on QuickSort algorithm defined in file Pixel_sort.js, creating a glitchy effect. The position and dimensions of the affected area change with each frame, creating a dynamic and animated.
+
+# Resources Used
+
+- I referred the code from:
+https://blog.science.family/240408_pixel_sort

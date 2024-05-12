@@ -1,24 +1,36 @@
 ---
-title: Assignment 2 🕊
+title: Week 8 (AT2) 🕊
 published_at: 2024-03-06
-snippet: Chaotic aesthetic from fractal, glitch and post-digital net art
+snippet: Style of Chaotic
 disable_html_sanitization: true
 
 ---
+# Here is my implemention:
 
+``` html
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title></title>
+</head>
+<body>
 <!-- Audio sound -->
 <audio id="backgroundMusic" loop>
-	<source src="code.mp3" type="23/code.mp3">
-    Your browser does not support the audio element.
+	<source src="sound.mp3" type="audio/mp3">
+	Your browser does not support the audio element.
 </audio>
 <!-- Canvas and Audio Button -->
 <div style="position: relative; display: inline-block;">
 	<canvas id="c2_example" width="300" height="300" style="border: 1px solid black;"></canvas>
 	<button id="playButton" style="position: absolute; top: 10px; left: 10px;">Play Background Audio</button>
 </div>
+
 <!-- Include c2.js library files -->
-<script src="/script/c2.min.js"></script>
-<script src="/script/c2.js"></script>
+<script src="./c2.min.js"></script>
+<script src="./c2.js"></script>
 <script>
 // Set up c2 renderer
 cnv = document.getElementById('c2_example')
@@ -197,3 +209,18 @@ function resize() {
 	document.body.style.height = '100%';
 }
 </script>
+</body>
+</html>
+
+```
+# Here is my result:
+
+https://dash.deno.com/projects/lily-02-chaotic-net-20?fbclid=IwZXh0bgNhZW0CMTAAAR2Gb_t7qPoiYHW0pjXe57RVgedc6J3bMylA5as1Jid99YyYLnI8XbqRQp0_aem_AZuzl7khxoyX1Ol36NbR-dA-nDkwBZyK9rSChIlKeY1AjQqsB3QdAnB3vmgCAdG4J4reX8lNJrwCPFs0KWNzYb8q
+
+# Resources Used
+
+https://github.com/ren-yuan/c2.js/blob/main/examples/LimitedVoronoi4.js
+
+https://blog.science.family/240405_glitch
+
+https://blog.science.family/240321_recursion
