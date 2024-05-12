@@ -46,7 +46,7 @@ export class PixelSorter {
 
          // Gather pixel indices for a vertical column.
          for (let y_pos = pos.y; y_pos < pos.y + dim.y; y_pos++) {
-            positions.push(find_i({ x: pos.x + x_off, y: y_pos }))
+            positions.push(find_i ({ x: pos.x + x_off, y: y_pos }))
          }
 
          const unsorted = []  // Array to hold the unsorted pixel data.
@@ -58,30 +58,30 @@ export class PixelSorter {
             const b = this.img_data[p + 2]
             const a = this.img_data[p + 3]
             const br = r * g * b  // Calculate 'brightness' as a product of RGB.
-            unsorted.push({ r, g, b, a, br })
+            unsorted.push ({ r, g, b, a, br })
          })
 
          // Sort the unsorted array and reverse it for the glitch effect.
-         const sorted = quicksort(unsorted).reverse()
+         const sorted = quicksort (unsorted).reverse ()
 
          let rgba = []  // Array to store the sorted and flattened pixel data.
 
          // Flatten the sorted data back into rgba format.
-         sorted.forEach(e => {
-            rgba.push(e.r)
-            rgba.push(e.g)
-            rgba.push(e.b)
-            rgba.push(e.a)
+         sorted.forEach (e => {
+            rgba.push (e.r)
+            rgba.push (e.g)
+            rgba.push (e.b)
+            rgba.push (e.a)
          })
 
-         rgba = new Uint8ClampedArray(rgba)  // Convert the array to Uint8ClampedArray format.
+         rgba = new Uint8ClampedArray (rgba)  // Convert the array to Uint8ClampedArray format.
 
          // Create image data for a single column.
-         const new_data = this.ctx.createImageData(1, dim.y)
-         new_data.data.set(rgba)  // Set the pixel data.
+         const new_data = this.ctx.createImageData (1, dim.y)
+         new_data.data.set (rgba)  // Set the pixel data.
 
          // Place the sorted column back into the canvas.
-         this.ctx.putImageData(new_data, pos.x + x_off, pos.y)
-      }
-   }
+         this.ctx.putImageData (new_data, pos.x + x_off, pos.y)
+        }
+    }
 }

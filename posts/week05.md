@@ -15,7 +15,7 @@ Pixel Sort
 
 <script type="module">
   // Imports the PixelSorter class from an external JavaScript file.
-  import { PixelSorter } from "/static/script/pixel_sort.js"
+  import { PixelSorter } from "/script/pixel_sort.js"
 
   // Set up the canvas 
   const cnv = document.getElementById(`pixel_sort`)
@@ -45,7 +45,7 @@ Pixel Sort
   }
 
   // Sets the source of the Image object
-  img.src = `/240408/kornerpark.jpg`
+  img.src = `/23/a.JPG`
 
   // Initializes a variable to keep track of the current frame count.
   let frame_count = 0

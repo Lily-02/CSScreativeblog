@@ -123,4 +123,38 @@ which keep different parts of the drawing from interfering with each other.
 This homework helped me understand not only the technical aspects of using the Canvas API but also the concept of fractals. The ability to visualize complex patterns through programming was particularly rewarding. Despite the challenges, this exercise enhanced my problem-solving skills and my understanding of recursive functions in creating graphical content.
 
 
-- Can this method be used to maximize chaos?  How might you use it in your AT2?
+## Can this method be used to maximize chaos?  How might you use it in your AT2?
+
+The fractal tree I implemented uses recursive branching to create a pattern. By tweaking several aspects of this recursion, I can increase the "chaos" or unpredictability in the visual output, and maximizing the chaotic aesthetic style:
+
+### Varying Angles and Lengths Randomly:
+
+- Instead of using fixed angles and lengths for the branches, I could introduce randomness to these parameters. Each call to the recursive function could use slightly different angles and lengths based on a random factor. This would make the tree look less symmetrical and more chaotic.
+
+### Adding More Branches: 
+
+- Instead of having just two branches at each recursion level, I could increase the number of branches. I also randomize the number of branches at each level, which would contribute to a more complex and chaotic structure.
+
+### Color Variations:
+
+- Introducing random color variations at different depths of recursion can add to the visual complexity and chaos. Colors can be chosen based on certain conditions or completely randomly to create vibrant, unpredictable patterns.
+
+### Non-linear Transformations: 
+
+- To enhance chaos, consider applying non-linear transformations to the coordinates of each new branch. This could include rotations that are influenced by factors like the current depth, the position of the branch, or other environmental variables.
+
+### Depth Variation: 
+
+- Randomizing the depth of recursion for different branches can also contribute to chaos. Some branches could terminate earlier than others, creating an irregular pattern that enhances the fractal’s complexity.
+
+
+## However, there are some problems when maximizing chaos:
+
+
+### Performance Impact: 
+
+- More complexity in fractals can slow down computations, so balance complexity with performance.
+
+### Aesthetic Balance: 
+
+- While chaos can enhance the visual interest of a fractal, too much randomness can also lead to patterns that are too disordered to be aesthetically pleasing. Finding the right balance between order and chaos is key to creating engaging fractal art

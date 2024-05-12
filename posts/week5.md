@@ -102,4 +102,3 @@ which of Ngai's aesthetic categories does your self-portrait (and glitch more ge
 does glitch increase or decrease effective complexity, and why?
 
 
-
