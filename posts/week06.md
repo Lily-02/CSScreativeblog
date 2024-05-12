@@ -102,9 +102,6 @@ function resize() {
 }
 </script>
 
-# # Comments to the code:
-
-
 # Resources Used
 
 1. I referred by Capo's code. He mixed the code between c2.js example and ascii cam: https://github.com/capogreco/blog.science.family/blob/main/posts/240423_c2js_ascii.md?plain=1
