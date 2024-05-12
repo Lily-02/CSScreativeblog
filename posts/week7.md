@@ -1,10 +1,9 @@
 ---
 title: Week 7 🕊
 published_at: 2024-04-10
-snippet: Create a grid
+snippet: Ascii cam
 disable_html_sanitization: true
 ---
-I combined FROM ASCII CAM https://blog.science.family/240412_ascii_cam AND Circle c2js https://github.com/ren-yuan/c2.js/blob/main/examples/Circle.js#L10
 
 <!-- Import the c2.js library -->
 <script src="/script/c2.min.js"></script>
@@ -153,3 +152,9 @@ I combined FROM ASCII CAM https://blog.science.family/240412_ascii_cam AND Circl
 
 
 - Why does combining ideas / libraries seem to make things more aesthetically chaotic?  Please refer to the principles of effective complexity in your answer.  Post your discussion to your blog.
+
+# Resources Used
+
+1. I referred by Capo's code. He mixed the code between c2.js example and ascii cam: https://github.com/capogreco/blog.science.family/blob/main/posts/240423_c2js_ascii.md?plain=1
+
+2. I used Circle.js of Ren Yuan to mix with the ascii cam: Ihttps://github.com/ren-yuan/c2.js/blob/857f6fbb9769a786c284d2b973ce4b637761c395/examples/Circle.js

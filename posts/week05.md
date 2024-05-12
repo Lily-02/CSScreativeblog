@@ -1,14 +1,12 @@
 ---
 title: Week 5 🕊
 published_at: 2024-04-11
-snippet: Create a grid
+snippet: Pixel Sort
 disable_html_sanitization: true
 
 
 ---
 # Homework s5:
-
-Pixel Sort
 
 <!-- Creates a canvas element on the page where the pixel sorting effect will be rendered. -->
 <canvas id="pixel_sort"></canvas>

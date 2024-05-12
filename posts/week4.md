@@ -1,7 +1,7 @@
 ---
 title: Week 4 🕊
 published_at: 2024-03-06
-snippet: Create a grid
+snippet: Fractal effects
 disable_html_sanitization: true
 
 ---
@@ -60,18 +60,6 @@ smaller scales. Below is how it looks like:
 
 ![re22](/23/re22.png)
 
-# Resources Used
-
-1. HTML and JavaScript Basics: As foundational knowledge, I relied on your example of using Canvas API and DOM manipulation (https://blog.science.family/240320_canvas_api)
-
-2. Canvas API Documentation: The Mozilla Developer Network (MDN) Web Docs served as a primary resource for understanding the Canvas API&#39;s capabilities, particularly the methods
-for drawing paths and setting styles (https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API)
-
-3. Fractal Geometry: I referred to the book &quot;The Fractal Geometry of Nature&quot; by Mandelbrot, provided by you on Canvas to gain a theoretical understanding of fractals. This document helped me grasp the mathematical principles behind fractal patterns.
-
-4. Recursion: I relied on your example of Recursion to understand how it works and how can I use it to create a fractal (https://blog.science.family/240321_recursion)
-
-
 # Process
 
 ## 1. Understanding Fractals, Recursion and the Canvas API:
@@ -118,12 +106,14 @@ which keep different parts of the drawing from interfering with each other.
 
 ![re26](/23/re26.png)
 
-# Conclusion
+## Conclusion
 
 This homework helped me understand not only the technical aspects of using the Canvas API but also the concept of fractals. The ability to visualize complex patterns through programming was particularly rewarding. Despite the challenges, this exercise enhanced my problem-solving skills and my understanding of recursive functions in creating graphical content.
 
+# Fractal concept in AT2: 
 
-## Can this method be used to maximize chaos?  How might you use it in your AT2?
+
+## Can this method be used to maximize chaos?
 
 The fractal tree I implemented uses recursive branching to create a pattern. By tweaking several aspects of this recursion, I can increase the "chaos" or unpredictability in the visual output, and maximizing the chaotic aesthetic style:
 
@@ -158,3 +148,34 @@ The fractal tree I implemented uses recursive branching to create a pattern. By 
 ### Aesthetic Balance: 
 
 - While chaos can enhance the visual interest of a fractal, too much randomness can also lead to patterns that are too disordered to be aesthetically pleasing. Finding the right balance between order and chaos is key to creating engaging fractal art
+
+
+## How might I use it in my Assignment 2 ?
+
+- In my AT2 project, where I aim to combine fractal effects with glitch and post-digital aesthetics using the "LimitedVoronoi4" example from c2.js, I can effectively use this approach to create a dynamic, chaotic net art piece. 
+
+### Integrating Fractal Effects
+
+- Multiplying Squares: As each square in the "LimitedVoronoi4" setup reaches the edge of the screen, I can implement a function that not only bounces the square back but also creates multiple smaller squares. 
+
+-> This multiplication could simulate fractal behavior where patterns repeat on smaller scales. The new squares could inherit velocity and direction but vary slightly to introduce chaos.
+
+### Fractal Properties:
+
+- Implement the fractal nature by allowing the newly created squares also to bounce and multiply under the same conditions, creating a self-sustaining loop that resembles fractal recursion.
+
+- To enhance the visual fractal effect, the branching (multiplication) can happen in a visually structured way, such as always splitting in specific angles or patterns.
+
+
+# Resources Used
+
+1. HTML and JavaScript Basics: As foundational knowledge, I relied on your example of using Canvas API and DOM manipulation (https://blog.science.family/240320_canvas_api)
+
+2. Canvas API Documentation: The Mozilla Developer Network (MDN) Web Docs served as a primary resource for understanding the Canvas API&#39;s capabilities, particularly the methods
+for drawing paths and setting styles (https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API)
+
+3. Fractal Geometry: I referred to the book &quot;The Fractal Geometry of Nature&quot; by Mandelbrot, provided by you on Canvas to gain a theoretical understanding of fractals. This document helped me grasp the mathematical principles behind fractal patterns.
+
+4. Recursion: I relied on your example of Recursion to understand how it works and how can I use it to create a fractal (https://blog.science.family/240321_recursion)
+
+# Here is my "big" fractal tree:

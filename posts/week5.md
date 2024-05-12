@@ -1,14 +1,12 @@
 ---
 title: Week 5 🕊
 published_at: 2024-04-10
-snippet: Create a grid
+snippet: The style of glitch
 disable_html_sanitization: true
 
 
 ---
 # Homework s5:
-
-A self-portrait in the style of glitch
 
 <canvas id="glitch_self_portrait"></canvas>
 
@@ -102,3 +100,35 @@ which of Ngai's aesthetic categories does your self-portrait (and glitch more ge
 does glitch increase or decrease effective complexity, and why?
 
 
+# Discussion 
+
+## Which of Ngai's aesthetic categories does your self-portrait (and glitch more generally) belong to, and why?
+
+In my artwork, especially when I use glitch effects in self-portraits, I find that it fits best with what Sianne Ngai calls the **Zany Aesthetic**. Here's why I think so:
+
+- **It's all about going over the top**: Glitch art really packs everything in, flooding the image with lots of visual disruptions that can feel chaotic and a bit crazy. It's like filling a room with too many balloons — fun, but definitely a lot!
+
+- **Mixing fun with skill**: Creating glitch art is fun because it feels like playing around, but it also needs some tech skills to get it right. It’s like playing a video game where you also have to fix the console.
+
+- **Unpredictable outcomes**: When I start working on a glitch piece, I kick things off, but I can't fully predict how it will end up looking. The algorithms twist and tweak the image in ways I can't always control, making each piece a surprise. This balance between having control and losing it is a big part of what makes it feel so lively and energetic.
+
+### Other Aesthetics Considered
+
+- **Cute**: Glitch art doesn’t really make I feel warm or fuzzy. It’s more about shaking things up than making I want to cuddle something.
+
+- **Interesting**: While glitch art can make me think about digital media and how we see art, it’s more about striking visuals than deep analysis. It grabs my attention fast rather than making me ponder for a long time.
+
+### Conclusion
+So, in Ngai's terms, my glitch art in self-portraits really shows off the **zany** vibe. It captures the hectic, fun, and sometimes overwhelming experience of our digital lives, where both making and looking at art involve dealing with complex and often unstable systems that can change things up in unexpected ways.
+
+## Does glitch increase or decrease effective complexity, and Why?
+
+I believe glitch art increases effective complexity. Here’s why:
+
+- **Balance of Predictable and Unpredictable**: Glitch art mixes the original media with unexpected changes, creating a unique blend of the expected and the surprising. This balance is a core aspect of effective complexity, where neither complete order nor total chaos rules.
+  
+- **Dynamic Changes**: In glitch art, the interaction between the original and the glitched elements can lead to unexpected results, much like complex systems in nature. Each glitch introduces a level of unpredictability, enhancing complexity.
+
+- **New Experiences**: Glitch art often reveals new patterns and meanings that emerge unpredictably from simple manipulations. These emergent properties show how a simple error can transform something familiar into something entirely new and complex.
+
+In short, glitch art boosts effective complexity by weaving together the known and the unknown, showcasing the intriguing interplay of order and chaos in art.

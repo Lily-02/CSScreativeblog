@@ -1,13 +1,12 @@
 ---
-title: Week 6 (c2js) 🕊
+title: Week 6 🕊
 published_at: 2024-03-06
 snippet: Create a grid
 disable_html_sanitization: true
 ---
 
 
-Hi, this is my task of c2.js. I choose the "Circle.js" folder to import it to my blog. I got the source code from Ren Yuan. 
-Here is that link: https://github.com/ren-yuan/c2.js/blob/857f6fbb9769a786c284d2b973ce4b637761c395/examples/Circle.js
+Hi, this is my task of c2.js. I choose the "Circle.js" folder to import it to my blog. 
 
 <script src="/script/c2.js"></script>
 
@@ -102,3 +101,12 @@ function resize() {
     renderer.size(parent.clientWidth, parent.clientWidth / 16 * 9);
 }
 </script>
+
+# # Comments to the code:
+
+
+# Resources Used
+
+1. I referred by Capo's code. He mixed the code between c2.js example and ascii cam: https://github.com/capogreco/blog.science.family/blob/main/posts/240423_c2js_ascii.md?plain=1
+
+2. I used Circle.js of Ren Yuan to mix with the ascii cam: Ihttps://github.com/ren-yuan/c2.js/blob/857f6fbb9769a786c284d2b973ce4b637761c395/examples/Circle.js
