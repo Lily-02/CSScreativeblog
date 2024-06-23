@@ -46,6 +46,18 @@ Workshops and Classes: Art workshops, classes, and meetups focusing on various t
 Online Art Platforms: Social media groups and online galleries where members share and critique artwork.
 Nature Walks and Photography: Organized nature walks and photography sessions to capture and appreciate natural landscapes.
 
+### Brokering Creative Coding Repertoire
+
+1. Workshops: Organize sessions to demonstrate AI art generation.
+
+2. Collaborative Projects: Create communal AI art pieces..
+
+3. Local Exhibitions: Partner with galleries to showcase AI art.
+
+4. Educational Resources: Provide tutorials on using AI for art.
+
+Integrating AI into the community can enrich both traditional and digital art practices.
+
 
 ## References
 
