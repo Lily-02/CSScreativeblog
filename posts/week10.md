@@ -5,6 +5,9 @@ snippet: Hydra live coding
 disable_html_sanitization: true
 
 ---
+### Here is the link of my live coding:
+
+https://youtu.be/bOez7CVcA4I?si=1-P4ypTVo0yZ8UYR
 
 ### Frustrating Aspects
 
