@@ -31,3 +31,14 @@ disable_html_sanitization: true
 One important information I would like you to consider when assessing my AT3 is the problem of private API key exposure to public as I explained to you earlier. The API provider automatically disables any API key that is exposed publicly which prevents you from directly generating images using my web application. To overcome this, I cannot push my API key to GitHub but I will send it to you in the comment on Canvas. I would greatly appreciate if you can replace the API key in the code (script.js) with the key I send in the comment to run it on your side.
 
 - ![hc](/23/hc.png)
+
+
+## References
+
+1. YouTube, 2023. *Generative AI & Machine Learning for Artists*. [online] Available at: <https://www.youtube.com/watch?v=4qNwoAAfnk4> [Accessed 22 June 2024].
+
+2. YouTube, 2023. *The Future of AI in Digital Art*. [online] Available at: <https://www.youtube.com/watch?v=C4ve8Kjw9ZY> [Accessed 22 June 2024].
+
+3. YouTube, 2023. *Creating Art with AI: A Comprehensive Guide*. [online] Available at: <https://www.youtube.com/watch?v=K74l26pE4YA> [Accessed 22 June 2024].
+
+4. YouTube, 2023. *How to Generate Images Using AI and Text Prompts*. [online] Available at: <https://www.youtube.com/watch?v=phWxA89Dy94&t=310s> [Accessed 22 June 2024].
