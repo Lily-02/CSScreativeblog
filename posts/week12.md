@@ -21,11 +21,11 @@ disable_html_sanitization: true
 
 - And my API calling function is handled as below:
 
-![h4](/23/h4.png)
+![h3.5](/23/h3.5.png)
 
 - It sends my prompt to the Dall-E 2 model hosted on the cloud by OpenAI and returns an image URL to me. I then update the src attribute of my placeholder image element on the main page with the returned image URL. I also handle the logic of navigating to the gallery page once the gallery button is pressed:
 
-![h4.0](/23/h4.0.png)
+![h4](/23/h4.png)
 
 - Important information
 One important information I would like you to consider when assessing my AT3 is the problem of private API key exposure to public as I explained to you earlier. The API provider automatically disables any API key that is exposed publicly which prevents you from directly generating images using my web application. To overcome this, I cannot push my API key to GitHub but I will send it to you in the comment on Canvas. I would greatly appreciate if you can replace the API key in the code (script.js) with the key I send in the comment to run it on your side.
